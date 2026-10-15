@@ -15,7 +15,6 @@ jobs:
           unzip -o DR-WORLD-2.2.0.zip || true
           ls -la
           mv DR-WORLD-2.2.0/*./ 2>/dev/null || true
-          mv DR-WORLD-2.2.0/.*./ 2>/dev/null || true
           ls -la
       - name: Set up JDK 17
         uses: actions/setup-java@v4
